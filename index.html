@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>פרסום בשלטים - חומת שמואל</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>פרסום בשלטים - חומת שמואל</h1>
+        <img src="logomatnas.png" alt='לוגו מתנ"ס חומת שמואל' />
+        <img src="logoDfus.png" alt="לוגו החברה" />
+      </div>
+      <div class="content">
+        <p>
+          בואו לפרסם את העסק שלכם בשלטים הרשמיים של חומת שמואל. זוהי דרך יעילה
+          וזולה לחשוף את העסק שלכם לאלפי אנשים מדי יום.
+        </p>
+        <h2>פרטי השירות:</h2>
+        <ul>
+          <li>השלטים ממוקמים בצירי תנועה מרכזיים בשכונה.</li>
+          <li>
+            שני שלישים מהשלט הם הודעות קהילתיות ושליש הוא פרסומת לעסק שלכם.
+          </li>
+          <li>המחירים משתנים בהתאם למיקומים לפי כמות חשיפה</li>
+          <li>
+            אנו מבטיחים את פרסום השלט למשך 14 יום -באחד מ2 מקומות לבחירתכם
+          </li>
+        </ul>
+        <h2>מפת השלטים:</h2>
+        <div id="constantMap" class="constantMap"></div>
+
+        <div id="mapContainer" class="map-container">
+          <div id="map" class="map"></div>
+        </div>
+        <div id="buttonContainer">
+          <button id="openMapButton" class="button">בחר/י את השלט שלך</button>
+        </div>
+        <div id="fullscreenMapContainer" class="map-container">
+          <button id="closeMapButton" class="close-button">X</button>
+          <div id="fullscreenMap" class="map"></div>
+        </div>
+
+        <h2>דוגמאות לפרסום:</h2>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="img1.jpg" alt="דוגמא 1" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img2.jpg" alt="דוגמא 2" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img3.jpg" alt="דוגמא 3" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img4.jpg" alt="דוגמא 4" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img5.jpg" alt="דוגמא 5" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img6.jpg" alt="דוגמא 6" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img7.jpg" alt="דוגמא 7" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img8.jpg" alt="דוגמא 8" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img9.jpg" alt="דוגמא 9" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img10.jpg" alt="דוגמא 10" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img11.jpg" alt="דוגמא 11" />
+          </div>
+        </div>
+      </div>
+
+      <h2>איך להזמין:</h2>
+      <p>הזמנות ניתן לבצע דרך WhatsApp.</p>
+      <p>
+        מספר טלפון להזמנות ובירורים:
+        <a href="https://wa.me/972547602157">לחץ כאן להזמנה</a>
+      </p>
+      <div class="cta">
+        <a href="https://wa.me/972547602157" class="button">הזמינו עכשיו</a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

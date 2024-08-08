@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px; /* Default font size */
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.content {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.map-image {
+  cursor: pointer;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.slider {
+  margin-top: 20px;
+}
+
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.mySlides {
+  display: none;
+  text-align: center; /* Center the images */
+}
+
+.mySlides img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+li {
+  margin-top: 10px;
+}
+/* Media query for larger screens */
+@media (min-width: 600px) {
+  body {
+    font-size: 18px; /* Increase font size for larger screens */
+  }
+
+  .content,
+  .cta {
+    padding: 40px;
+  }
+
+  .map-image {
+    max-width: 600px;
+  }
+
+  .header {
+    font-size: 24px; /* Larger font size for header */
+  }
+
+  .content h2,
+  .content p,
+  .content ul {
+    font-size: x-large; /* Larger font size for content */
+  }
+}
+.map-container {
+  height: 400px;
+  margin-bottom: 20px;
+}
+.map-container {
+  display: none;
+}
+.map-container.fullscreen {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: white;
+}
+.map {
+  height: 100%;
+}
+#buttonContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.map-container {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.map {
+  height: 100%;
+}
+#constantMapContainer {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+#constantMap {
+  height: 400px;
+}
